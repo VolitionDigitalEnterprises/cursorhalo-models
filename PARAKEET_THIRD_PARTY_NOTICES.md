@@ -4,8 +4,9 @@ NVIDIA parakeet-tdt-0.6b-v3 is licensed under [CC-BY-4.0](https://creativecommon
 The [FluidInference Core ML conversion](https://huggingface.co/FluidInference/parakeet-tdt-0.6b-v3-coreml)
 is pinned to revision 7dd20fe6b1797d35f5e3307e8b1732d9a178edfe.
 FluidInference converted the model to Core ML and quantized the encoder to int8.
-CursorHalo only packages and mirrors these files unmodified. Weights are downloaded on first use,
-not bundled; downloads remain unconfigured until the public release is uploaded.
+CursorHalo only packages and mirrors these files unmodified. Weights are not bundled: they are downloaded on first use
+from the `parakeet-tdt-0.6b-v3-coreml-r1` release of https://github.com/VolitionDigitalEnterprises/cursorhalo-models
+and checked against pinned SHA-256 hashes and sizes before use.
 
 FluidAudio v0.18.0 (FluidInference), Apache-2.0. A full copy of that licence
 ships in `Phonon31M/LICENSE` in this app's Resources. No upstream NOTICE file exists.
